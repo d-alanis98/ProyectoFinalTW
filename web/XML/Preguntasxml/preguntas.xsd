@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="preguntas">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pregunta" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nombre" type="xs:string" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="texto" type="xs:string" minOccurs="1" maxOccurs="1"/>
+							<xs:element name="respuestas">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="respuesta" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="xs:string" >
+														<xs:attribute name="puntos" type="xs:int"/>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="puntos" type="xs:int"/>
+									<xs:attribute name="cantidadmax" type="xs:int"/>								
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="retroalimentacion">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="correcto"  type="xs:string" minOccurs="1" maxOccurs="1"/>
+										<xs:element name="incorrecto" type="xs:string" minOccurs="1" maxOccurs="1"/>
+									</xs:sequence>								
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="tipo" type="xs:string" use="required"/>
+						<xs:attribute name="user" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
