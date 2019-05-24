@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usuarios.xsd">
+	<usuario>
+		<usr>damian</usr>
+		<psw>alanis</psw>
+	</usuario>
+	<usuario>
+		<usr>paola</usr>
+		<psw>raya</psw>
+	</usuario>
+        <usuario>
+		<usr>mariana</usr>
+		<psw>1234</psw>
+	</usuario>
+	<usuario>
+		<usr>admin</usr>
+		<psw>admin</psw>
+	</usuario>
+</usuarios>
