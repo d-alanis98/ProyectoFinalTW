@@ -1,3 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <preguntas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+  <pregunta tipo="PartialCredit" user="admin">
+    <nombre>P3</nombre>
+    <texto />
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Pregunta opcion multiple 1</nombre>
+    <texto>Pregunta op multiple</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="2 ">DOS</respuesta>
+      <respuesta puntos="0 ">CERO</respuesta>
+      <respuesta puntos="1 ">UNO</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Pregunta multiple op 2</nombre>
+    <texto>skksks</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="3 ">Tres</respuesta>
+      <respuesta puntos="0">Cero</respuesta>
+      <respuesta puntos="1 ">uno</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Pregunta  option multiple</nombre>
+    <texto>Pregunta option multiple</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="verdadero ">Troya</respuesta>
+      <respuesta puntos="falso ">falso</respuesta>
+      <respuesta puntos="falso ">falso</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="PartialCredit" user="admin">
+    <nombre>Pregunta PC 1</nombre>
+    <texto>PC PARTIAL CREDIT 1</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="10 ">DIEX</respuesta>
+      <respuesta puntos="9 ">NUEVE</respuesta>
+      <respuesta puntos="0 ">CERO</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="">
+    <nombre />
+    <texto />
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>OP 5</nombre>
+    <texto>MSMS</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Pregunta multiple option</nombre>
+    <texto>dkdkd</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="verdadero">Caballo</respuesta>
+      <respuesta puntos="falso ">falso</respuesta>
+      <respuesta puntos="falso ">fals</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Opcion multiple prueba</nombre>
+    <texto>Prueba de pregunta de opcion multiple</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="verdadero ">RESPUESTA CORRECTA</respuesta>
+      <respuesta puntos="falso ">resupesta incorrecta</respuesta>
+      <respuesta puntos="falso ">respuesta incorrect</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="PartialCredit" user="admin">
+    <nombre>Pregunta partial credit prueba 1 dia 2</nombre>
+    <texto>Pregunta</texto>
+    <respuestas cantidadmax="2">
+      <respuesta puntos="10 ">Diez</respuesta>
+      <respuesta puntos="9 ">Nueve</respuesta>
+      <respuesta puntos="0">cero</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="">
+    <nombre />
+    <texto />
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>PRUEBA FINAL MULTIPLE OPTIO</nombre>
+    <texto />
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>OPT MULTIPLE FINAL PRUEBA</nombre>
+    <texto>DDJDJDJD</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>sdsjjsjs</nombre>
+    <texto>djdjdj</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>xsmskksks</nombre>
+    <texto>ssjss</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>kdkdkd</nombre>
+    <texto />
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>OPTION FINAL YA DORMIR</nombre>
+    <texto>JSJSJSJ LLDLD</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>MULTIPLE YA LA ULTIMA</nombre>
+    <texto>SKSKKSSK</texto>
+    <respuestas cantidadmax="" />
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>PREGUNTA FINAL YA ALV A DORMI</nombre>
+    <texto />
+    <respuestas cantidadmax="">
+      <respuesta puntos="verdadero">true</respuesta>
+      <respuesta puntos="falso">falso</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>YA A DORMIR ALV</nombre>
+    <texto>DESCRIPCION CHIDA</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="falso">F</respuesta>
+      <respuesta puntos="falso">F</respuesta>
+      <respuesta puntos="falso">F</respuesta>
+      <respuesta puntos="verdadero">V</respuesta>
+      <respuesta puntos="falso">F</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
+  <pregunta tipo="MultipleOption" user="admin">
+    <nombre>Prueba opcion multiple con select</nombre>
+    <texto>Ya solo se puede seleccioanr falso o verdadero desde un select.</texto>
+    <respuestas cantidadmax="">
+      <respuesta puntos="verdadero">Esta es la verdadera</respuesta>
+      <respuesta puntos="falso">Falso 1</respuesta>
+      <respuesta puntos="falso">Falso 2</respuesta>
+      <respuesta puntos="falso">Falso 3</respuesta>
+    </respuestas>
+    <retroalimentacion>
+      <correcto />
+      <incorrecto />
+    </retroalimentacion>
+  </pregunta>
 </preguntas>

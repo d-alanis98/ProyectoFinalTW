@@ -2,6 +2,30 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/CrearXMLNuevo.java</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/PreguntaMultipleOption.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/EligeExamen.java</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/XML/Preguntasxml/damian.xml</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/Opcionespreguntas.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/XML/Preguntasxml/paola.xml</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/EligePregunta.java</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/XML/Preguntasxml/admin.xml</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/EligePregunta.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/Component.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/ServletVisualizar.java</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/ExamenEliminar.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/XML/Preguntasxml/preguntas.xsd</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/ExamenVisualizer.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/ComponentExamn.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/ServletPreguntaExamen.java</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/PreguntaVisualizer.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/OpcionesMultiple.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/XML/Preguntasxml/mariana.xml</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/PreguntaPartialCredit.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/Pregunta.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/web/App.js</file>
+            <file>file:/C:/Users/Damian%20Alanis/Documents/Escuela/Unidades%20de%20aprendizaje/Tecnologías%20para%20la%20web/Tercer%20parcial/Segunda%20entrega/TW/TWProyectoFinal/src/java/packageServlets/PaginaProfesor.java</file>
+        </group>
     </open-files>
 </project-private>

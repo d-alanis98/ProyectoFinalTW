@@ -21,6 +21,7 @@ public class PaginaProfesor extends HttpServlet {
         HttpSession session=request.getSession();
         String userName=(String)session.getAttribute("userName");
         List<Element> preguntas;
+        String nombrePregunta = "";
         Preguntas getter = new Preguntas(getServletContext().getRealPath("/")+"/XML/Preguntasxml/" + userName + ".xml");
         preguntas = getter.getPreguntas(userName);
 	PrintWriter out=response.getWriter();
@@ -36,13 +37,13 @@ public class PaginaProfesor extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<script type=\"text/javascript\" >" + 
-                "function eliminar(){ \n" + 
-                    "var opcion = confirm(\"Desea eliminar pregunta?\");\n" +
+                "function eliminar(){ alert(" + nombrePregunta + ");\n" + 
+                    "var loc = window.location.href;" + 
+                    "var head = loc.split('/', 3);" +
+                    "var opcion = confirm(\"Desea eliminar pregunta? \");\n" +
                     "if (opcion == true) {\nconsole.log('Pregunta eliminada');" +
-                        "document.forms[1].action='ServletEliminar';" + 
-                        "document.forms[1].submit();\n" +
+                        "window.location.replace('http://' + head[2] + '/TWProyectoFinal/ServletEliminar?item=" + nombrePregunta + "');" +
                     "} else {" + 
-                        "document.formulario.action='';" +
                         "alert(\"No se elimino pregunta\");\n" +
                     "}\n" +
                 "}"+ 
@@ -72,6 +73,7 @@ public class PaginaProfesor extends HttpServlet {
                 out.println("<tr>");
                 out.println("<td class='align-middle'><h5>"+preguntas.get(i).getChildText("nombre")+"</h5></td>");
                 out.println("<td class='align-middle'><h5>"+preguntas.get(i).getChildText("texto")+"</h5></td>");
+                nombrePregunta = preguntas.get(i).getChildText("nombre");
                 
                 out.println("<td>" +
                         "<form name='formulario' method='get'>" +

@@ -34,7 +34,7 @@ public class EligePregunta extends HttpServlet {
 "\n" +
 "                <div class=\"Delimitador\">\n" +
 "                \n" +
-"                   <div id=\"PreguntaPartialCredit\"></div>\n" +
+"                   <div id=\"EligePregunta\"></div>\n" +
 "                \n" +
 "                </div>\n" +
 "\n" +
@@ -42,13 +42,17 @@ public class EligePregunta extends HttpServlet {
 "        </div>\n" +
 "        \n" +
 "        \n" +
+
 "<script type=\"text/babel\" src=\"Navigation.js\"></script>\n" +
                     "<script type=\"text/babel\" src=\"Component.js\"></script>\n" +
 "        <script type=\"text/babel\" src=\"Retroalimentacion.js\"></script>\n" +
 "        <script type=\"text/babel\" src=\"Opcionespreguntas.js\"></script>\n" +
 "        <script type=\"text/babel\" src=\"Pregunta.js\"></script>\n" +
 "        <script type=\"text/babel\" src=\"PreguntaPartialCredit.js\"></script>\n" +
+"        <script type=\"text/babel\" src=\"OpcionesMultiple.js\"></script>\n" +
+"        <script type=\"text/babel\" src=\"PreguntaMultipleOption.js\"></script>\n" +
 "        \n" +
+                                                        "        <script type=\"text/babel\" src=\"EligePregunta.js\"></script>\n" +
 "        <script src=\"https://unpkg.com/react@16/umd/react.development.js\" crossorigin></script>\n" +
 "        <script src=\"https://unpkg.com/react-dom@16/umd/react-dom.development.js\" crossorigin></script>\n" +
 "        <script src=\"https://unpkg.com/babel-standalone@6/babel.min.js\"></script>\n" +

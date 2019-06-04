@@ -76,7 +76,7 @@ public class PaginaProfesorExamenes extends HttpServlet {
                         "<form name='formulario' method='get'>" +
                         "<input type='hidden' name='exam' value='" + examenes.get(i).getChildText("nombre") + "'/>" +
                         "<input type ='submit' value='Modificar' formaction='ServletModificarExamen' onClick='metodo' class='btn btn-info'/><br><br>" +
-                        "<input type ='submit' value='Eliminar' formaction='javascript:eliminar()' class='btn btn-danger'/><br><br>" +
+                        "<input type ='submit' value='Eliminar' formaction='ServletEliminarExamen' class='btn btn-danger'/><br><br>" +
                         "<input type ='submit' value='Visualizar' formaction='ServletVisualizarExamen' class='btn btn-success'/>");
                         session.setAttribute("tituloExamen", examenes.get(i).getChildText("nombre"));
                 out.println("</form></td>");

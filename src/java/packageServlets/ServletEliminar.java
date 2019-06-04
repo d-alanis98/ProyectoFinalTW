@@ -39,7 +39,12 @@ public class ServletEliminar extends HttpServlet {
         String titulo=(String)request.getParameter("item"); //Recuperamos que titulo de la rpegunta era desde el formulario
         String usuario = (String)session.getAttribute("usr");
         String ruta = application.getRealPath("/")+"/XML/Preguntasxml/" + usuario + ".xml";
-        File writer=new File(ruta);        
+        File writer=new File(ruta);  
+        out.println("<!DOCTYPE html>"
+                + "<html>"
+                + "<head></head>"
+                + "<body> item = " + titulo + " usuario = " + usuario);
+                
             try{
             SAXBuilder builder = new SAXBuilder();
             Document doc = builder.build(writer);
@@ -48,9 +53,12 @@ public class ServletEliminar extends HttpServlet {
             
             for ( int i = 0; i < preguntas.size(); i++ ){
                 Element e = (Element) preguntas.get(i);
+                out.println(" Pregunta[" + i + "]: " + e.getChildText("nombre"));
                 if(e.getChildText("nombre").equals(titulo)){
                     //e.getParentElement().removeChild("Pregunta");
                     e.detach();
+                    out.println(" Pregunta: " + e.getChildText("nombre") + " = " + titulo + "<body/>");
+                    out.println("</html>");
                     break;   
                 }
             }

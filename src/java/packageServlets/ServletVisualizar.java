@@ -49,6 +49,7 @@ public class ServletVisualizar extends HttpServlet {
        String retroCorrecta = "";
        String retroIncorrecta = "";
        String maxElements = "";
+       String tipo = "";
     List<Element> optionList = new ArrayList<Element>();
     int n = 0;
         File writer=new File(ruta); 
@@ -61,6 +62,8 @@ public class ServletVisualizar extends HttpServlet {
             for ( int i = 0; i < preguntas.size(); i++ ){
                 Element e = (Element) preguntas.get(i);
                 if(e.getChildText("nombre").equals(titulo)){
+                    Attribute _tipo = e.getAttribute("tipo");
+                    tipo = _tipo.getValue();
                     texto = e.getChild("texto").getText();
                     opcionaux = (Element)e.getChild("respuestas");
                     Attribute max = (Attribute)opcionaux.getAttribute("cantidadmax");
@@ -99,6 +102,7 @@ public class ServletVisualizar extends HttpServlet {
                 + "<input type=\"hidden\" name=\"MaxElements\" value='" + maxElements + "'/>\n"
                 + "<input type=\"hidden\" name=\"RetroCorrecta\" value='" + retroCorrecta + "'/>\n"
                 + "<input type=\"hidden\" name=\"RetroIncorrecta\" value='" + retroIncorrecta + "'/>\n"
+                + "<input type=\"hidden\" name=\"Tipo\" value='" + tipo + "'/>\n"    
                 + "<input type=\"hidden\" name=\"TextoPregunta\" value = '" + texto + "'/> ");
         for(int i = 0; i < opciones.size(); i++){//Ciclo for que pone en el formulario las opciones
             out.println("<input type=\"hidden\" name='Puntos" + (i + 1) + "' value='" + puntos.get(i)+ "'/>\n"
